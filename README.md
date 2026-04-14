@@ -30,7 +30,7 @@ npm install
 ### 2) Build Electron main/preload files (one-time or after Electron changes)
 
 ```bash
-npm run build:electron
+npm run build
 ```
 
 Important: run as Electron app. Do not test only in browser tab.
@@ -39,12 +39,6 @@ Important: run as Electron app. Do not test only in browser tab.
 
 ```bash
 npm run dev
-```
-
-### 4) Create production build
-
-```bash
-npm run build
 ```
 
 ## How To Use
