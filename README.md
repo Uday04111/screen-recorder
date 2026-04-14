@@ -27,15 +27,21 @@ A desktop app built with Electron + React to record screen and webcam, save each
 npm install
 ```
 
-### 2) Start in development mode
+### 2) Build Electron main/preload files (one-time or after Electron changes)
+
+```bash
+npm run build:electron
+```
+
+Important: run as Electron app. Do not test only in browser tab.
+
+### 3) Start in development mode
 
 ```bash
 npm run dev
 ```
 
-Important: run as Electron app. Do not test only in browser tab.
-
-### 3) Build
+### 4) Create production build
 
 ```bash
 npm run build
