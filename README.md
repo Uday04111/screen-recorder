@@ -78,7 +78,7 @@ Each recording session is saved in its own UUID folder:
 - Export settings (format, bitrate, save path)
 - Automatic FFmpeg merge to `final.mp4`
 
-## Known Limitations / Notes
+## Known Limitations
 
 - MP4 support in `MediaRecorder` depends on OS/runtime codecs.
 - If direct MP4 recording is not supported, recording can fall back to WebM.
@@ -100,19 +100,3 @@ Each recording session is saved in its own UUID folder:
 - `src/App.tsx` - main UI composition
 - `src/components/ExportSettings.tsx` - export options UI
 
-## Scripts
-
-- `npm run dev` - start Vite + Electron
-- `npm run build` - build renderer + electron
-- `npm run dist` - package desktop installer
-
-## Interview Submission Note
-
-This project focuses on:
-
-- clean UI and user flow
-- safe Electron architecture
-- resilient recording pipeline
-- clear file/session management
-
-If needed, I can also provide a short demo video and a concise architecture walkthrough.
